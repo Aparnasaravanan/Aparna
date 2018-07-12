@@ -7,7 +7,7 @@ public class PosNegZero {
 		if(n==0){
 			System.out.println("Zero");
 		}
-		else if(n%2==0){
+		else if(n>0){
 			System.out.println("Positive");
 		}
 		else{
