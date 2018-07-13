@@ -1,10 +1,14 @@
-package prpfirst;
 import java.util.*;
 public class Sum {
 	public static void main(String[] args){
-		int a=Integer.parseInt(args[0]);
-		int b=Integer.parseInt(args[1]);
-		
-	System.out.print(a+b);
-}
+		Scanner sc=new Scanner(System.in);
+		int n,i;
+		int sum=0;
+		n=sc.nextInt();
+		for(i=1;i<=n;i++){
+			sum=sum+i;
+		}
+		System.out.println(sum);
+	}
+
 }
