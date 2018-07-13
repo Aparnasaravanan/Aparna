@@ -7,13 +7,13 @@ public class Large {
 		b=sc.nextInt();
 		c=sc.nextInt();
 if(a>b && a>c){
-	System.out.println(+a);
+	System.out.println(a);
 }
 else if(b>a && a>c){
-	System.out.println(+b);
+	System.out.println(b);
 }
 else{
-	System.out.println(+c);
+	System.out.println(c);
 }
 }
 }
