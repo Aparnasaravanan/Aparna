@@ -5,19 +5,12 @@ public class IndexValue {
 		Scanner sc=new Scanner(System.in);
 		int a,n,i,j,count=0;
 		n=sc.nextInt();
-		int l=Integer.toString(n).length();
-		int ar[]=new int[l];
-		i=l-1;
-		while(n!=0){
-			a=n%10;
-			ar[i]=a;
-			//System.out.println(ar[i]);
-			n=n/10;
-			i--;
+		int ar[]=new int[n];
+		for(i=0;i<n;i++){
+			ar[i]=sc.nextInt();
 		}
 		
-		
-		for(i=0;i<l;i++){
+		for(i=0;i<n;i++){
 			//System.out.println(ar[i]+"aa"+i);
 			if(i==ar[i]){
 				count++;
